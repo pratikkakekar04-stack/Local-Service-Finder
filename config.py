@@ -10,6 +10,6 @@ class Config:
 
     MYSQL_USER = os.getenv('MYSQL_USER', 'root')
 
-    MYSQL_PASSWORD = os.getenv('Pratik@0004', '')
+    MYSQL_PASSWORD = os.getenv('', '')
 
     MYSQL_DATABASE = os.getenv('MYSQL_DATABASE', 'local_service_finder')
